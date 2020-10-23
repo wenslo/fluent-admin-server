@@ -21,6 +21,7 @@ extra["springBootAdminVersion"] = "2.3.0"
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("de.codecentric:spring-boot-admin-starter-server")
+    implementation(group = "org.springframework.boot", name = "spring-boot-starter-security")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
