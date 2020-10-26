@@ -1,2 +1,11 @@
 server:
   port: 9000
+spring.boot.admin:
+  instance-auth:
+    enabled: true
+    default-user-name: "admin"
+    default-user-password: "admin"
+    service-map:
+      web-archetypes-kotlin:
+        user-name: "admin"
+        user-password: "admin"
